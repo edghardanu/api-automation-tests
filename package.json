@@ -1,0 +1,20 @@
+{
+  "name": "api-automation-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/apiTest.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ajv": "^8.17.1",
+    "chai": "^4.5.0",
+    "chai-http": "^4.4.0",
+    "chai-json-schema": "^1.5.1",
+    "mocha": "^10.7.3"
+  },
+  "type": "module"
+}
